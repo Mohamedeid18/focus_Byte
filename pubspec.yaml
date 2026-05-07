@@ -1,0 +1,30 @@
+name: focus_byte
+description: A minimalist task manager with a Pomodoro timer.
+publish_to: "none"
+version: 0.0.1
+environment:
+  sdk: ">=2.18.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.5
+  shared_preferences: ^2.1.1
+  flutter_riverpod: ^2.4.0
+  flutter_local_notifications: ^21.0.0
+  flutter_timezone: ^5.0.2
+  timezone: ^0.11.0
+  uuid: ^4.0.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_launcher_icons: "^0.11.0"
+
+flutter:
+  uses-material-design: true
+
+flutter_launcher_icons:
+  android: "launcher_icon"
+  ios: true
+  image_path: "assests/images/calendar checklist.png"
