@@ -19,12 +19,12 @@ dependencies:
 dev_dependencies:
   flutter_test:
     sdk: flutter
-  flutter_launcher_icons: "^0.11.0"
+  flutter_launcher_icons: 0.14.4
 
 flutter:
   uses-material-design: true
 
 flutter_launcher_icons:
-  android: "launcher_icon"
+  android: true
   ios: true
-  image_path: "assests/images/calendar checklist.png"
+  image_path: "assets/images/pomodoro_focus_icon.png"

@@ -1,0 +1,8 @@
+flutter_launcher_icons:
+  android: true
+  ios: true
+  image_path: "assets/images/pomodoro_focus_icon.png"
+  windows:
+    generate: true
+  macos:
+    generate: true
